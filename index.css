@@ -1,0 +1,31 @@
+header {
+    max-height: 140px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 100px;
+}
+
+.header__menu {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-between;
+    max-width: 640px;
+    width: 100%;
+}
+
+.header__menu__item{
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    font-size: 16px;
+    font-family: Montserrat, Arial, sans-serif;
+    cursor: pointer;
+}
+
+input:checked
