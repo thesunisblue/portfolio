@@ -1,14 +1,22 @@
 @font-face {
-	font-family: 'Montserrat';
-	src: url(‘/fonts/Montserrat-VariableFont_wght.ttf’) format(‘truetype’)
+  font-family: 'montserratthin';
+  src: url('montserrat-variablefont_wght-webfont.woff2') format('woff2'),
+       url('montserrat-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 @font-face {
-	font-family: 'South Australia';
-	src: url(‘/fonts/SouthAustraliaTTF.ttf’) format(‘truetype’)
+  font-family: 'south_australiaregular';
+  src: url('/fonts/southaustraliattf-webfont.woff2') format('woff2'),
+       url('/fonts/southaustraliattf-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
 }
 
 body {
-	font-family: 'Montserrat', sans-serif;
+	font-family: 'montserratthin', sans-serif;
     width: 100%;
     margin: 0 auto;
     background-color: #FBFBFB;
@@ -131,8 +139,8 @@ header {
     }
     .block__presentation__title {
 
-        font-family: 'South Australia';
-        font-size: 80px;
+        font-family: 'south_australiaregular';
+        font-size: 30px;
         color:#656D56;
         z-index: 1;
         position: relative;
@@ -150,7 +158,7 @@ header {
     .block__presentation__description {
       margin: 0 auto;
       width: 80%;
-      padding: 100px 0;
+      padding: 150px 0 0;
       line-height: 1.7em;
     }
 
@@ -182,8 +190,8 @@ header {
     .block__expertises__item p {
       text-align: center;
       color: #FFF;
-      font-family: 'South Australia';
-      font-size: 80px;
+      font-family: 'south_australiaregular';
+      font-size: 25px;
     }
 
     .projects__section {
@@ -230,7 +238,7 @@ header {
 
     .projects__menu__item {
       text-decoration:none;
-      font-family:'Montserrat', sans-serif;
+      font-family:'montserratthin', sans-serif;
       font-size: 14px;
       text-transform: uppercase;
       color:#414144;
@@ -244,7 +252,7 @@ header {
     }
     .project__header p {
       width: 40%;
-      font-family:'Montserrat', sans-serif;
+      font-family:'montserratthin', sans-serif;
       font-size: 16px;
       text-transform: uppercase;
       letter-spacing: 3px;
