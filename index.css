@@ -1,14 +1,36 @@
+@font-face {
+	font-family: 'Montserrat';
+	src: url(‘/fonts/Montserrat-VariableFont_wght.ttf’) format(‘truetype’)
+}
+@font-face {
+	font-family: 'South Australia';
+	src: url(‘/fonts/SouthAustraliaTTF.ttf’) format(‘truetype’)
+}
+
+body {
+	font-family: 'Montserrat', sans-serif;
+    max-width: 1440px;
+    width: 100%;
+    margin: 0 auto;
+    background-color: #FBFBFB;
+    color:#414144;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin:auto;
+}
+
 header {
     max-height: 140px;
     height: 100%;
     display: flex;
     flex-direction: row;
-    max-width: 1440px;
+    max-width: 1200px;
     width: 100%;
-    margin: 0 auto;
+    margin: 100px auto;
     justify-content: space-between;
     align-items: center;
-    margin-top: 100px;
 }
 
 .header__menu {
@@ -24,8 +46,283 @@ header {
     letter-spacing: 3px;
     text-transform: uppercase;
     font-size: 16px;
-    font-family: Montserrat, Arial, sans-serif;
     cursor: pointer;
+    text-decoration:none;
+    color:#414144;
 }
 
-input:checked
+
+.header__burger__icon {
+    display: none;
+    cursor: pointer;
+  }
+
+  
+  /* The Overlay (background) */
+  .overlay {
+  
+    height: 100%;
+    width: 0;
+    position: fixed; 
+    z-index: 10000;
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.9); 
+    overflow-x: hidden; 
+    transition: 0.5s; 
+  }
+  
+  /* Position the content inside the overlay */
+  .overlay-content {
+    position: relative;
+    top: 25%; 
+    width: 100%; 
+    text-align: center; 
+    margin-top: 30px; 
+  }
+  
+  /* The navigation links inside the overlay */
+  .overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color:#FBFBFB;
+    display: block; 
+    transition: 0.3s; 
+  }
+  /* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+  }
+  
+  /* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+  @media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+      font-size: 40px;
+      top: 15px;
+      right: 35px;
+    }
+  }
+  @media only screen and (min-device-width : 320px) and (max-device-width : 1200px) {
+
+    .header__menu, .header__icons {
+        display: none;
+      }
+      .header__burger__icon {
+        display: block;
+      }
+
+    }
+
+
+    .block__presentation {
+      display: flex;
+      justify-content: space-between;
+      max-width: 1064px;
+      width: 100%;
+      margin: 0 auto 50px;
+    }
+    .block__presentation__introduction {
+      margin: 0px auto;
+    }
+    .block__presentation__title {
+
+        font-family: 'South Australia';
+        font-size: 80px;
+        color:#656D56;
+        z-index: 1;
+        position: relative;
+        left: -100px;
+        transform: rotate(-15deg);
+        letter-spacing: 2px;
+        margin: 20px auto;
+    }
+
+    .block__presentation img {
+      width: 380px;
+      height: auto;
+    }
+
+    .block__presentation__description {
+      margin: 0 auto;
+      width: 80%;
+      padding: 100px 0;
+      line-height: 1.7em;
+    }
+
+    .block__expertises {
+      background-color: #A4BBA9;
+      min-height: 400px;
+      height: 100%;
+      display: flex;
+      justify-content: space-around;
+      width: 100%;
+      margin: auto;
+      align-items: center;
+      padding: 26px 0 150px 0;
+      background-image: url("/flower.png");
+      background-position: bottom;
+      background-repeat: no-repeat;
+      background-size: contain;
+    }
+    
+    .block__expertises__item {
+      border: 2px solid #FFF;
+      height: 270px;
+      width: 270px;
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+    .block__expertises__item p {
+      text-align: center;
+      color: #FFF;
+      font-family: 'South Australia';
+      font-size: 80px;
+    }
+
+    .projects__section {
+      display: flex;
+      justify-content: space-between;
+      flex-direction: row;
+      width: 100%;
+      margin-bottom: 50px;
+    }
+
+    .projects__section img{
+      width: 300px;
+      height: auto;
+      margin: 0 auto;
+      display: flex;
+    }
+
+    .projects__section__item__title {
+      background-color: #DDC0AE;
+      width: 150px;
+      height: 50px;
+      display: flex;
+      z-index: 1;
+      position: relative;
+      top: -30px;
+    }
+    .projects__section__item__title p {
+      text-align: center;
+      width: 100%;
+      color:#A66851;
+    }
+    .projects__section__item__description {
+      margin: -15px 35px 0;
+      text-align: center;
+    }
+
+    .projects__menu {
+      display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60%;
+    float: right;
+    }
+
+    .projects__menu__item {
+      text-decoration:none;
+      font-family:'Montserrat', sans-serif;
+      font-size: 14px;
+      text-transform: uppercase;
+      color:#414144;
+      letter-spacing: 2px;
+    }
+    .project__header {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      margin: 50px auto;
+    }
+    .project__header p {
+      width: 40%;
+      font-family:'Montserrat', sans-serif;
+      font-size: 16px;
+      text-transform: uppercase;
+      letter-spacing: 3px;
+    }
+
+@media only screen and (max-width: 1023px) {
+
+  .header {
+    margin: 50px auto;
+  }
+  .header__logo {
+    margin: 0 10px;
+  }
+
+.block__expertises {
+  flex-direction: column;
+  background-size: auto;
+}
+
+.projects__section {
+  flex-direction: column;
+  margin-bottom: 0;
+}
+.projects__section__item {
+  margin: 20px 10px;
+}
+
+.block__presentation {
+  flex-direction: column;
+}
+
+.block__presentation__title {
+  left: auto;
+  font-size: 60px;
+  margin: 20px auto;
+  text-align: center;
+  transform: inherit;
+}
+
+.block__presentation__description {
+  padding: 10px 0;
+  text-align: center;
+}
+
+.block__presentation img {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.block__expertises__item {
+  margin: 10px 0;
+}
+
+.project__header {
+  flex-direction: column;
+}
+
+.projects__menu {
+  flex-direction: column;
+  width: 100%;
+  margin: 30px 0;
+  text-align: center;
+}
+
+.project__header p {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.project__header {
+  align-items: center;
+  margin: 50px auto auto;
+}
+
+.overlay a {
+  font-size: 16px;
+}
+
+}
