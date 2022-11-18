@@ -24,6 +24,11 @@ body {
     background-position: top left;
   
 }
+
+a {
+  color: #414144;
+  text-decoration: none;
+}
 .container {
   max-width: 1200px;
   width: 100%;
