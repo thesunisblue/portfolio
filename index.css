@@ -8,11 +8,9 @@
 }
 @font-face {
   font-family: 'south_australiaregular';
-  src: url('/fonts/southaustraliattf-webfont.woff2') format('woff2'),
-       url('/fonts/southaustraliattf-webfont.woff') format('woff');
+  src: url('/fonts/SouthAustralia.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
-
 }
 
 body {
@@ -21,6 +19,10 @@ body {
     margin: 0 auto;
     background-color: #FBFBFB;
     color:#414144;
+    background-image: url(/corner-left-top.png);
+    background-repeat: no-repeat;
+    background-position: top left;
+  
 }
 .container {
   max-width: 1200px;
@@ -35,7 +37,7 @@ header {
     flex-direction: row;
     max-width: 1200px;
     width: 100%;
-    margin: 100px auto;
+    margin: 80px auto;
     justify-content: space-between;
     align-items: center;
 }
@@ -140,7 +142,7 @@ header {
     .block__presentation__title {
 
         font-family: 'south_australiaregular';
-        font-size: 30px;
+        font-size: 80px;
         color:#656D56;
         z-index: 1;
         position: relative;
@@ -150,7 +152,7 @@ header {
         margin: 20px auto;
     }
 
-    .block__presentation img {
+    .profil__picture{
       width: 380px;
       height: auto;
     }
@@ -158,41 +160,10 @@ header {
     .block__presentation__description {
       margin: 0 auto;
       width: 80%;
-      padding: 150px 0 0;
+      padding: 85px 0 0;
       line-height: 1.7em;
     }
 
-    .block__expertises {
-      background-color: #A4BBA9;
-      min-height: 400px;
-      height: 100%;
-      display: flex;
-      justify-content: space-around;
-      width: 100%;
-      margin: auto;
-      align-items: center;
-      padding: 26px 0 150px 0;
-      background-image: url("/flower.png");
-      background-position: bottom;
-      background-repeat: no-repeat;
-      background-size: contain;
-    }
-    
-    .block__expertises__item {
-      border: 2px solid #FFF;
-      height: 270px;
-      width: 270px;
-      border-radius: 50%;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-    .block__expertises__item p {
-      text-align: center;
-      color: #FFF;
-      font-family: 'south_australiaregular';
-      font-size: 25px;
-    }
 
     .projects__section {
       display: flex;
@@ -246,18 +217,18 @@ header {
     }
     .project__header {
       display: flex;
-      flex-direction: row;
       align-items: center;
       margin: 50px auto;
     }
-    .project__header p {
-      width: 40%;
-      font-family:'montserratthin', sans-serif;
-      font-size: 16px;
-      text-transform: uppercase;
-      letter-spacing: 3px;
-    }
-
+    
+.title {
+    width: 100%;
+font-family: 'montserratthin', sans-serif;
+font-size: 16px;
+text-transform: uppercase;
+letter-spacing: 3px;
+text-align: center;
+}
 @media only screen and (max-width: 1023px) {
 
   .header {
@@ -266,11 +237,6 @@ header {
   .header__logo {
     margin: 0 10px;
   }
-
-.block__expertises {
-  flex-direction: column;
-  background-size: auto;
-}
 
 .projects__section {
   flex-direction: column;
@@ -286,7 +252,7 @@ header {
 
 .block__presentation__title {
   left: auto;
-  font-size: 25px;
+  font-size: 50px;
   margin: 60px auto 30px;
   text-align: center;
   transform: inherit;
@@ -331,4 +297,89 @@ header {
 .overlay a {
   font-size: 16px;
 }
+}
+
+.button-52 {
+  font-size: 16px;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 20px 20px 13px;
+  outline: 0;
+  border: 2px solid #FFF;
+  cursor: pointer;
+  position: relative;
+  background-color: rgba(0, 0, 0, 0);
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  color:#FBFBFB;
+  text-decoration: none;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.button-52:after {
+  content: "";
+  background-color: #A4BBA9;
+  width: 100%;
+  z-index: -1;
+  position: absolute;
+  height: 100%;
+  top: 7px;
+  left: 7px;
+  transition: 0.2s;
+}
+
+.button-52:hover:after {
+  top: 0px;
+  left: 0px;
+}
+
+@media (min-width: 768px) {
+  .button-52 {
+    padding: 20px 50px 13px;
+  }
+}
+
+#block__skills {
+  background-color: #A4BBA9;
+  color:#FBFBFB;
+  margin: -32px auto;
+}
+
+.skills__title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.block__skills__wrapper {
+  text-align: center;
+margin-bottom: 3rem;
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+}
+
+.block__skills__wrapper .icon__box{
+  width: 12.5%;
+}
+@media only screen and (max-width: 1023px) {
+  .block__skills__wrapper .icon__box {
+    width: 49.5%;
+  }
+  svg {
+    margin: -25px auto;
+  }  
+}
+
+.block__skills__wrapper  .devicon {
+color: #FBFBFB;
+font-size: 3.5rem;
+}
+
+.container-img {
+width: 70px;
+display: block;
+height: 3.5rem;
+margin: 0 auto;
 }
