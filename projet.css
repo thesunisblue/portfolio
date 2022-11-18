@@ -5,6 +5,11 @@
     grid-row-gap: 20px;
     grid-auto-rows: min-content;
   }
+  @media only screen and (max-width: 1023px) {
+    .portfolio-grid-overlay {
+      grid-template-columns: auto;
+    }
+  }
   
   .grid-item:hover .portfolio-overlay {
     opacity: .4;
