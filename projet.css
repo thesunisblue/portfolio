@@ -1,6 +1,6 @@
 .portfolio-grid-overlay {
     display: grid;
-    grid-template-columns: repeat(3,minmax(0,1fr));
+    grid-template-columns: repeat(2,minmax(0,1fr));
     grid-column-gap: 20px;
     grid-row-gap: 20px;
     grid-auto-rows: min-content;
@@ -83,7 +83,7 @@
     position: absolute;
     top: 0;
     left: 0;
-    bottom: 0;
+    bottom: auto;
     right: 0;
   }
 

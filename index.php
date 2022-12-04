@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <title>Document</title>
+    <title>Pauline Bour</title>
 </head>
 <body>
     <!-- The overlay -->
@@ -18,10 +18,10 @@
 
 <!-- Overlay content -->
 <div class="overlay-content">
-            <a href="#projects" class="header__menu__item">Projets</a>
-            <a href="#block__skills" class="header__menu__item">Compétences & Outils</a>
-            <a href="#" class="header__menu__item">A propos</a>
-            <a href="#" class="header__menu__item">Contact</a>
+            <a href="/webdesign.html" class="header__menu__item">Webdesign</a>
+            <a href="/illustration.html" class="header__menu__item">Illustration</a>
+            <a href="/logo.html" class="header__menu__item">Logo</a>
+            <a href="/motion-design.html" class="header__menu__item">Motion Design</a>
             <a href="https://www.instagram.com/somewhereonlywedraw/" target="blank"><img class="instagram" src="/instagram.svg" /></a>
             <a href="https://github.com/thesunisblue" target="blank"><img class="github" src="/github-icon.svg" /></a>
 </div>
@@ -31,10 +31,10 @@
     <header class="header"> 
         <img class="header__logo" src="/logo.svg" />
         <nav class="header__menu">
-            <a href="#projects" class="header__menu__item">Projets</a>
-            <a href="#block__skills" class="header__menu__item">Compétences & Outils</a>
-            <a href="#" class="header__menu__item">A propos</a>
-            <a href="#" class="header__menu__item">Contact</a>
+            <a href="/webdesign.html" class="header__menu__item">Webdesign</a>
+            <a href="/illustration.html" class="header__menu__item">Illustration</a>
+            <a href="/logo.html" class="header__menu__item">Logo</a>
+            <a href="/motion-design.html" class="header__menu__item">Motion Design</a>
         </nav>
         <div class="header__burger__icon">
         <a onclick="openNav()">
@@ -123,11 +123,26 @@
     </div>
     </div>
 
-    <div class="container">
-    <div id="projects">
-      <div class="project__header">
+    <div class="project__header">
       <p class="title">Quelques récents projets</p> 
       </div>
+      <form>
+<input type="radio" name="fancy" autofocus value="clubs" id="clubs" />
+<input type="radio" name="fancy" value="hearts" id="hearts" />
+<input type="radio" name="fancy" value="spades" id="spades" />
+<input type="radio" name="fancy" value="diamonds" id="diamonds" />			
+<label for="clubs"></label>
+
+<label for="hearts"></label>
+<label for="spades"></label>
+<label for="diamonds"></label>
+
+<div class="keys">Use left and right keys to navigate</div>
+</form>
+
+    <div class="container">
+    <div id="projects">
+
       <div class="projects__section">
         <div class="projects__section__item">
           <a href="/webdesign.html">

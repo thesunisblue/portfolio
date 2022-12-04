@@ -175,7 +175,7 @@ header {
       justify-content: space-between;
       flex-direction: row;
       width: 100%;
-      margin-bottom: 50px;
+      margin: 50px 0;
     }
 
     .projects__section img{
@@ -310,7 +310,7 @@ text-align: center;
   letter-spacing: 1px;
   padding: 20px 20px 13px;
   outline: 0;
-  border: 2px solid #FFF;
+  border: 2px solid #656D56;
   cursor: pointer;
   position: relative;
   background-color: rgba(0, 0, 0, 0);
@@ -388,3 +388,137 @@ display: block;
 height: 3.5rem;
 margin: 0 auto;
 }
+
+
+
+
+/* diapo projets */
+
+label {
+	color: #fff;
+	transition: transform 400ms ease-out;
+	display: inline-block;
+  min-height: 100%;
+	width: 100vw;
+	height: 80vh;
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	line-height: 100vh;
+}
+
+form {
+	position: relative;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	white-space: nowrap;
+}
+input {
+    position: absolute;
+    visibility: hidden;
+  }
+
+
+.keys {
+	position: fixed;
+	z-index: 10;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	padding: 1rem;
+	color: #fff;
+	text-align: center;
+	transition: all 300ms linear;
+	opacity: 0;
+}
+
+input:focus ~ .keys {
+	opacity: 0.8;
+}
+
+input:nth-of-type(1):checked ~ label:nth-of-type(1), 
+input:nth-of-type(2):checked ~ label:nth-of-type(2),
+input:nth-of-type(3):checked ~ label:nth-of-type(3),
+input:nth-of-type(4):checked ~ label:nth-of-type(4){
+   z-index: 0;
+}
+
+input:nth-of-type(1):checked ~ label {
+	transform: translate3d(0, 0, 0);
+}
+
+input:nth-of-type(2):checked ~ label {
+	transform: translate3d(-100%, 0, 0);
+}
+
+input:nth-of-type(3):checked ~ label {
+	transform: translate3d(-200%, 0, 0);
+}
+
+input:nth-of-type(4):checked ~ label {
+	transform: translate3d(-300%, 0, 0);
+}
+
+label {
+	background-size: cover;
+	font-size: 3rem;
+}
+
+label[for="clubs"] {
+	background-image: url(/illustration/cute-cats.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+label[for="hearts"] {
+	background-image: url(/moodboard.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+label[for="spades"] {
+	background-image: url(/carte-visite-fred-bour.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+label[for="diamonds"] {
+	background-image: url(/logo/logo-marion-photo.PNG);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+label:before,
+label:after {
+	color: #a4bba9;
+	display: block;
+	background:#a4bba947;
+	position: absolute;
+	padding: 1rem;
+	font-size: 3rem;
+	height: 10rem;
+	vertical-align: middle;
+	line-height: 10rem;
+	top: 50%;
+	transform: translate3d(0, -50%, 0);
+	cursor: pointer;
+}
+
+label:before {
+	content: "\276D";
+	right: 100%;
+	border-top-left-radius: 50%;
+	border-bottom-left-radius: 50%;
+}
+
+label:after {
+	content: "\276C";
+	left: 100%;
+	border-top-right-radius: 50%;
+	border-bottom-right-radius: 50%;
+}
+
+
