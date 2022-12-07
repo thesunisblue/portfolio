@@ -126,6 +126,7 @@
     <div class="project__header">
       <p class="title">Quelques récents projets</p> 
       </div>
+      <div class="project__exemples">
       <form>
 <input type="radio" name="fancy" autofocus value="clubs" id="clubs" />
 <input type="radio" name="fancy" value="hearts" id="hearts" />
@@ -139,6 +140,7 @@
 
 <div class="keys">Use left and right keys to navigate</div>
 </form>
+      </div>
 
     <div class="container">
     <div id="projects">
