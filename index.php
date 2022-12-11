@@ -122,6 +122,7 @@
       </div>
     </div>
     </div>
+    <svg id="visual" viewBox="0 0 1920 94" width="100%" height="94" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 26L16.8 28C33.7 30 67.3 34 101 35.2C134.7 36.3 168.3 34.7 202 32.7C235.7 30.7 269.3 28.3 303 30.2C336.7 32 370.3 38 404 38.8C437.7 39.7 471.3 35.3 505 34.8C538.7 34.3 572.3 37.7 606 35.7C639.7 33.7 673.3 26.3 707 25.8C740.7 25.3 774.3 31.7 808 33.7C841.7 35.7 875.3 33.3 909.2 33.3C943 33.3 977 35.7 1010.8 33.8C1044.7 32 1078.3 26 1112 26.2C1145.7 26.3 1179.3 32.7 1213 35.5C1246.7 38.3 1280.3 37.7 1314 36.8C1347.7 36 1381.3 35 1415 32.8C1448.7 30.7 1482.3 27.3 1516 29C1549.7 30.7 1583.3 37.3 1617 38.5C1650.7 39.7 1684.3 35.3 1718 34.2C1751.7 33 1785.3 35 1819 35.2C1852.7 35.3 1886.3 33.7 1903.2 32.8L1920 32L1920 0L1903.2 0C1886.3 0 1852.7 0 1819 0C1785.3 0 1751.7 0 1718 0C1684.3 0 1650.7 0 1617 0C1583.3 0 1549.7 0 1516 0C1482.3 0 1448.7 0 1415 0C1381.3 0 1347.7 0 1314 0C1280.3 0 1246.7 0 1213 0C1179.3 0 1145.7 0 1112 0C1078.3 0 1044.7 0 1010.8 0C977 0 943 0 909.2 0C875.3 0 841.7 0 808 0C774.3 0 740.7 0 707 0C673.3 0 639.7 0 606 0C572.3 0 538.7 0 505 0C471.3 0 437.7 0 404 0C370.3 0 336.7 0 303 0C269.3 0 235.7 0 202 0C168.3 0 134.7 0 101 0C67.3 0 33.7 0 16.8 0L0 0Z" fill="#A4BBA9" stroke-linecap="round" stroke-linejoin="miter"></path></svg>
 
     <div class="project__header">
       <p class="title">Quelques récents projets</p> 
@@ -143,70 +144,42 @@
       </div>
 
     <div class="container">
-    <div id="projects">
-
       <div class="projects__section">
-        <div class="projects__section__item">
+      <div class="card">
           <a href="/webdesign.html">
-          <img src="/ex-projet.png"/>
-          <div class="projects__section__item__title">
-          <p>Maquettage</p>
-          </div>
-          <p class="projects__section__item__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+          <img src="/maquettage/maquette-mini.png" class="card-image"/>
+          <p class="card-title">Maquettage</p>
           </a>
         </div>
-        <div class="projects__section__item">
+        <div class="card">
         <a href="/illustration.html">
-          <img src="/ex-projet.png"/>
-          <div class="projects__section__item__title">
-          <p>Illustration</p>
-          </div>
-          <p class="projects__section__item__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+          <img src="/illustration/the-girl.png" class="card-image"/>
+          <p class="card-title">Illustration</p>
         </a>
         </div>
-        <div class="projects__section__item">
+        <div class="card">
         <a href="/logo.html">
-          <img src="/ex-projet.png"/>
-          <div class="projects__section__item__title">
-          <p>Branding / Logo</p>
-          </div>
-          <p class="projects__section__item__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+          <img src="/logo/logo-fraser-son.png" class="card-image"/>
+          <p class="card-title">Branding / Logo</p>
         </a>
         </div>
       </div>
-      <div class="projects__section">
-        <div class="projects__section__item">
-          <img src="/ex-projet.png"/>
-          <div class="projects__section__item__title">
-          <p>Code</p>
-          </div>
-          <p class="projects__section__item__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+      <!-- <div class="projects__section">
+        <div class="card">
+          <img src="/ex-projet.png" class="card-image"/>
+          <p class="card-title">Code</p>
         </div>
-        <div class="projects__section__item">
+        <div class="card">
         <a href="/motion-design.html">
-          <img src="/ex-projet.png"/>
-          <div class="projects__section__item__title">
-          <p>Motion design</p>
-          </div>
-          <p class="projects__section__item__description">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+          <img src="/ex-projet.png" class="card-image"/>
+          <p class="card-title">Motion design</p>
         </a>
-        </div>
+        </div>-->
       </div>
     </div>
-    </div>
 
-    <script>
+    <script src="/main.js"></script>
 
-/* Open when someone clicks on the span element */
-function openNav() {
-  document.getElementById("myNav").style.width = "100%";
-}
-
-/* Close when someone clicks on the "x" symbol inside the overlay */
-function closeNav() {
-  document.getElementById("myNav").style.width = "0%";
-}
-</script>
 </body>
 
 </html>

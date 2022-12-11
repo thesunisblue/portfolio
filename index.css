@@ -172,61 +172,17 @@ header {
 
     .projects__section {
       display: flex;
-      justify-content: space-between;
+      justify-content: space-around;
       flex-direction: row;
-      width: 100%;
       margin: 50px;
     }
 
-    .projects__section img{
-      width: 300px;
-      height: auto;
-      margin: 0 auto;
-      display: flex;
-    }
-
-    .projects__section__item__title {
-      background-color: #DDC0AE;
-      width: 150px;
-      height: 50px;
-      display: flex;
-      z-index: 1;
-      position: relative;
-      top: -30px;
-    }
-    .projects__section__item__title p {
-      text-align: center;
-      width: 100%;
-      color:#A66851;
-    }
-    .projects__section__item__description {
-      margin: -15px 35px 0;
-      text-align: center;
-    }
-
-    .projects__menu {
-      display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 60%;
-    float: right;
-    }
-
-    .projects__menu__item {
-      text-decoration:none;
-      font-family:'montserratthin', sans-serif;
-      font-size: 14px;
-      text-transform: uppercase;
-      color:#414144;
-      letter-spacing: 2px;
-    }
     .project__header {
       display: flex;
       align-items: center;
       margin: 50px auto;
       
     }
-
     .project__exemples {
       overflow: hidden;
       box-sizing: border-box;
@@ -259,19 +215,6 @@ text-align: center;
 
 .block__presentation {
   flex-direction: column;
-}
-
-.block__presentation__title {
-  left: auto;
-  font-size: 50px;
-  margin: 60px auto 30px;
-  text-align: center;
-  transform: inherit;
-}
-
-.block__presentation__description {
-  padding: 10px 0;
-  text-align: center;
 }
 
 .block__presentation img {
@@ -355,12 +298,13 @@ text-align: center;
 #block__skills {
   background-color: #A4BBA9;
   color:#FBFBFB;
-  margin: -32px auto;
+  margin: -34px auto -65px;
 }
 
 .skills__title {
   text-align: center;
   margin-bottom: 40px;
+  padding: 30px 0;
 }
 
 .block__skills__wrapper {
@@ -534,3 +478,43 @@ label:after {
 }
 
 
+
+
+.card {
+width:300px;
+height: 400px;
+background-color:#333;
+border-radius: 45% 45% 0% 0%;
+outline: 1px solid
+rgba(255, 255, 255, .5);
+outline-offset:-8px;
+box-shadow: 30x 30x 10px
+rgba(0, 0, 0, .1);
+position: relative;
+overflow: hidden;
+margin-bottom: 30px;
+}
+
+.card-image{
+position: absolute;
+inset :0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+opacitv: .6;
+transition: transform .75s;
+}
+
+.card:hover .card-image {
+transform:scale(1.15);
+}
+
+.card-title {
+position: absolute;
+left:15px;
+bottom: 15px;
+font-size: 20px;
+text-shadow: 0 0 1px
+rgb(0, 0, 0, .5);
+color: #656D56;
+}
