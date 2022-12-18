@@ -109,3 +109,13 @@
     object-position: 50% 50%;
     object-fit: cover;
   }
+
+  .coming__soon {
+    background-color: #a4bba9;
+    color: #fff;
+    padding: 20px 0;
+  }
+
+  .coming__soon .title {
+font-size: 20px;
+}

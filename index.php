@@ -22,8 +22,8 @@
             <a href="/illustration.html" class="header__menu__item">Illustration</a>
             <a href="/logo.html" class="header__menu__item">Logo</a>
             <a href="/motion-design.html" class="header__menu__item">Motion Design</a>
-            <a href="https://www.instagram.com/somewhereonlywedraw/" target="blank"><img class="instagram" src="/instagram.svg" /></a>
-            <a href="https://github.com/thesunisblue" target="blank"><img class="github" src="/github-icon.svg" /></a>
+           <!-- <a href="https://www.instagram.com/somewhereonlywedraw/" target="blank"><img class="instagram" src="/instagram.svg" /></a>
+            <a href="https://github.com/thesunisblue" target="blank"><img class="github" src="/github-icon.svg" /></a>-->
 </div>
 
 </div>
@@ -46,7 +46,7 @@
         </div>
 
         <div class="header__icons">
-        <a href="https://www.instagram.com/somewhereonlywedraw/" target="blank"><img class="instagram" src="/instagram.svg" /></a>
+        <!--<a href="https://www.instagram.com/somewhereonlywedraw/" target="blank"><img class="instagram" src="/instagram.svg" /></a>-->
         <a href="https://github.com/thesunisblue" target="blank"><img class="github" src="/github-icon.svg" /></a>
         </div>
     </header>
@@ -115,14 +115,17 @@
         </div>
         <div class="icon__box">
         <div class="container-img">
-        <img src="/prestashop.png"/>
+        <img src="/Procreate.png"/>
         </div>
         <p>Procreate</p>
         </div>
       </div>
     </div>
     </div>
-    <svg id="visual" viewBox="0 0 1920 94" width="100%" height="94" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1"><path d="M0 26L16.8 28C33.7 30 67.3 34 101 35.2C134.7 36.3 168.3 34.7 202 32.7C235.7 30.7 269.3 28.3 303 30.2C336.7 32 370.3 38 404 38.8C437.7 39.7 471.3 35.3 505 34.8C538.7 34.3 572.3 37.7 606 35.7C639.7 33.7 673.3 26.3 707 25.8C740.7 25.3 774.3 31.7 808 33.7C841.7 35.7 875.3 33.3 909.2 33.3C943 33.3 977 35.7 1010.8 33.8C1044.7 32 1078.3 26 1112 26.2C1145.7 26.3 1179.3 32.7 1213 35.5C1246.7 38.3 1280.3 37.7 1314 36.8C1347.7 36 1381.3 35 1415 32.8C1448.7 30.7 1482.3 27.3 1516 29C1549.7 30.7 1583.3 37.3 1617 38.5C1650.7 39.7 1684.3 35.3 1718 34.2C1751.7 33 1785.3 35 1819 35.2C1852.7 35.3 1886.3 33.7 1903.2 32.8L1920 32L1920 0L1903.2 0C1886.3 0 1852.7 0 1819 0C1785.3 0 1751.7 0 1718 0C1684.3 0 1650.7 0 1617 0C1583.3 0 1549.7 0 1516 0C1482.3 0 1448.7 0 1415 0C1381.3 0 1347.7 0 1314 0C1280.3 0 1246.7 0 1213 0C1179.3 0 1145.7 0 1112 0C1078.3 0 1044.7 0 1010.8 0C977 0 943 0 909.2 0C875.3 0 841.7 0 808 0C774.3 0 740.7 0 707 0C673.3 0 639.7 0 606 0C572.3 0 538.7 0 505 0C471.3 0 437.7 0 404 0C370.3 0 336.7 0 303 0C269.3 0 235.7 0 202 0C168.3 0 134.7 0 101 0C67.3 0 33.7 0 16.8 0L0 0Z" fill="#A4BBA9" stroke-linecap="round" stroke-linejoin="miter"></path></svg>
+    <svg width="100%" height="95" viewBox="0 0 1920 95" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M1920 53.2005L1888 52.7804C1856 52.2204 1792 51.3804 1728 58.3805C1664 65.3806 1600 80.2207 1536 80.2207C1472 80.2207 1408 65.3806 1344 55.5805C1280 45.7804 1216 41.0203 1152 44.3804C1088 47.6004 1024 58.8005 960 63.7005C896 68.6006 832 67.2006 768 73.2206C704 79.3807 640 92.8208 576 94.7808C512 96.6008 448 86.8007 384 76.0206C320 65.3806 256 53.6205 192 47.8804C128 42.0004 64 42.0004 32 42.0004L0 42.0004V-2.50474e-06L32 -2.50474e-06C64 -2.50474e-06 128 -2.50474e-06 192 -2.50474e-06C256 -2.50474e-06 320 -2.50474e-06 384 -2.50474e-06C448 -2.50474e-06 512 -2.50474e-06 576 -2.50474e-06C640 -2.50474e-06 704 -2.50474e-06 768 -2.50474e-06C832 -2.50474e-06 896 -2.50474e-06 960 -2.50474e-06C1024 -2.50474e-06 1088 -2.50474e-06 1152 -2.50474e-06C1216 -2.50474e-06 1280 -2.50474e-06 1344 -2.50474e-06C1408 -2.50474e-06 1472 -2.50474e-06 1536 -2.50474e-06C1600 -2.50474e-06 1664 -2.50474e-06 1728 -2.50474e-06C1792 -2.50474e-06 1856 -2.50474e-06 1888 -2.50474e-06H1920V53.2005Z" fill="#A4BBA9"/>
+</svg>
+
 
     <div class="project__header">
       <p class="title">Quelques récents projets</p> 
@@ -138,12 +141,13 @@
 <label for="hearts"></label>
 <label for="spades"></label>
 <label for="diamonds"></label>
-
-<div class="keys">Use left and right keys to navigate</div>
 </form>
       </div>
 
     <div class="container">
+    <div class="project__header">
+      <p class="title">Retrouvez mes domaines d'expertise</p> 
+      </div>
       <div class="projects__section">
       <div class="card">
           <a href="/webdesign.html">
@@ -177,6 +181,11 @@
         </div>-->
       </div>
     </div>
+    <footer>
+    <div class="container">
+      <p>©2022 | Design &amp; code fait avec &hearts; par Pauline Bour</p>
+    </div> <!-- /.wrapper -->
+  </footer>
 
     <script src="/main.js"></script>
 
