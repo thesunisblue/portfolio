@@ -531,3 +531,17 @@ footer {
   font-weight: 300;
 
 }
+
+.citation {
+  background-color: #a4bba9;
+  color: #fff;
+  font-family: 'south_australiaregular', sans-serif;
+  text-align: center;
+  font-size: 4em;
+  padding: 15px 0;
+  margin: 50px 0;
+}
+
+.citation p {
+  margin: 0;
+}

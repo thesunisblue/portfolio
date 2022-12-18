@@ -143,6 +143,10 @@
 <label for="diamonds"></label>
 </form>
       </div>
+    
+      <div class="citation">
+      <p>Créer, c'est vivre deux fois</p> 
+      </div>
 
     <div class="container">
     <div class="project__header">
