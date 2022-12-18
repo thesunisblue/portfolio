@@ -50,6 +50,7 @@
         <a href="https://github.com/thesunisblue" target="blank"><img class="github" src="/github-icon.svg" /></a>
         </div>
     </header>
+    <div class="block__presentation__bg">
     <div class="block__presentation">
         <img class="profil__picture" src="/pauline-profil.png"/>
         <div class="block__presentation__introduction">
@@ -60,6 +61,7 @@
         <a href="/cv-Bour-Pauline.pdf" class="button-52" role="button" target="blank">Téléchargez mon CV !</a>
         </div>
       </div>
+    </div>
     </div>
 
     <svg width="100%" height="94" viewBox="0 0 1920 94" fill="none" xmlns="http://www.w3.org/2000/svg">

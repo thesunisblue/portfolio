@@ -545,3 +545,12 @@ footer {
 .citation p {
   margin: 0;
 }
+
+@media only screen and (min-width: 1024px){
+.block__presentation__bg {
+  background-image: url(/background-bird.png);
+  background-repeat: no-repeat;
+  background-position: top right;
+  background-size: auto;
+}
+}
