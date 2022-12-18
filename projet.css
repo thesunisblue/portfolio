@@ -1,3 +1,19 @@
+
+@font-face {
+  font-family: 'montserratthin';
+  src: url('montserrat-variablefont_wght-webfont.woff2') format('woff2'),
+       url('montserrat-variablefont_wght-webfont.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+
+}
+@font-face {
+  font-family: 'south_australiaregular';
+  src: url('/fonts/SouthAustralia.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
+
 .portfolio-grid-overlay {
     display: grid;
     grid-template-columns: repeat(2,minmax(0,1fr));
@@ -29,16 +45,16 @@
     z-index: 99;
   }
   .portfolio-grid-overlay .portfolio-title {
-    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: "montserratthin",Helvetica,Arial,sans-serif;
     font-weight: 600;
     line-height: 1.2em;
     font-size: 2rem;
     font-weight: 700;
     font-style: normal;
-    letter-spacing: 0em;
+    letter-spacing: 10px;
     text-transform: none;
     line-height: 1.3em;
-    font-size: 2.2rem;
+    font-size: 3.5rem;
   }  
 
   .portfolio-grid-overlay .grid-item:hover .portfolio-text {
