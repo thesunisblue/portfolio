@@ -80,6 +80,10 @@
         <p>CSS</p>
         </div>
         <div class="icon__box">
+        <i class="devicon devicon-sass-original"></i>
+        <p>SASS</p>
+        </div>
+        <div class="icon__box">
         <div class="container-img">
         <img src="/prestashop.png"/>
         </div>
@@ -158,7 +162,7 @@
       <div class="card">
           <a href="/webdesign.html">
           <img src="/maquettage/maquette-mini.png" class="card-image"/>
-          <p class="card-title">Maquettage</p>
+          <p class="card-title">Webdesign</p>
           </a>
         </div>
         <div class="card">
