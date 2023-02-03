@@ -26,7 +26,6 @@ body {
 }
 
 a {
-  color: #414144;
   text-decoration: none;
 }
 .container {
@@ -188,6 +187,7 @@ background-position: bottom;
     .project__exemples {
       overflow: hidden;
       box-sizing: border-box;
+      font-size: 0;
     }
     
 .title {

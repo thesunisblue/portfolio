@@ -10,44 +10,7 @@
     <title>Pauline Bour</title>
 </head>
 <body>
-    <!-- The overlay -->
-	<div id="myNav" class="overlay">
-
-<!-- Button to close the overlay navigation -->
-<a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
-
-<!-- Overlay content -->
-<div class="overlay-content">
-            <a href="/webdesign.html" class="header__menu__item">Webdesign</a>
-            <a href="/illustration.html" class="header__menu__item">Illustration</a>
-            <a href="/logo.html" class="header__menu__item">Logo</a>
-            <a href="/motion-design.html" class="header__menu__item">Motion Design</a>
-            <a href="https://github.com/thesunisblue" target="blank"><img class="github" src="/github-icon.svg" /></a>
-</div>
-
-</div>
-
-    <header class="header"> 
-        <img class="header__logo" src="/logo.svg" />
-        <nav class="header__menu">
-            <a href="/webdesign.html" class="header__menu__item">Webdesign</a>
-            <a href="/illustration.html" class="header__menu__item">Illustration</a>
-            <a href="/logo.html" class="header__menu__item">Logo</a>
-            <a href="/motion-design.html" class="header__menu__item">Motion Design</a>
-        </nav>
-        <div class="header__burger__icon">
-        <a onclick="openNav()">
-				<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34px" height="27px" viewBox="0 0 34 27" enable-background="new 0 0 34 27" xml:space="preserve">
-				<rect fill="#414144" width="34" height="4"/>
-				<rect y="11" fill="#414144" width="34" height="4"/>
-				<rect y="23" fill="#414144" width="34" height="4"/>
-				</svg>
-        </div>
-
-        <div class="header__icons">
-        <a href="https://github.com/thesunisblue" target="blank"><img class="github" src="/github-icon.svg" /></a>
-        </div>
-    </header>
+<?php include("header.php");?>
     <div class="block__presentation__bg">
     <div class="block__presentation">
         <img class="profil__picture" src="/pauline-profil.png"/>
@@ -82,6 +45,14 @@
         <p>SASS</p>
         </div>
         <div class="icon__box">
+        <i class="devicon devicon-git-plain"></i>
+        <p>Git</p>
+        </div>
+        <div class="icon__box">
+        <i class="devicon devicon-gulp-plain"></i>
+        <p>Gulp</p>
+        </div>
+        <div class="icon__box">
         <div class="container-img">
         <img src="/prestashop.png"/>
         </div>
@@ -90,6 +61,10 @@
         <div class="icon__box">
         <i class="devicon devicon-wordpress-plain"></i>
         <p>Wordpress</p>
+        </div>
+        <div class="icon__box">
+        <i class="devicon devicon-filezilla-plain"></i>
+        <p>Filezilla</p>
         </div>
         <div class="icon__box">
         <i class="devicon devicon-figma-plain"></i>
@@ -123,6 +98,10 @@
         </div>
         <p>Procreate</p>
         </div>
+        <div class="icon__box">
+        <i class="devicon devicon-blender-original"></i>
+        <p>Blender</p>
+        </div>
       </div>
     </div>
     </div>
@@ -139,38 +118,35 @@
 <input type="radio" name="fancy" autofocus value="clubs" id="clubs" />
 <input type="radio" name="fancy" value="hearts" id="hearts" />
 <input type="radio" name="fancy" value="spades" id="spades" />
-<input type="radio" name="fancy" value="diamonds" id="diamonds" />			
+<input type="radio" name="fancy" value="diamonds" id="diamonds" />
 <label for="clubs"></label>
-
 <label for="hearts"></label>
 <label for="spades"></label>
 <label for="diamonds"></label>
 </form>
       </div>
-    
       <div class="citation">
       <p>Créer, c'est vivre deux fois</p> 
       </div>
-
     <div class="container">
     <div class="project__header">
       <p class="title">Retrouvez mes domaines d'expertise</p> 
       </div>
       <div class="projects__section">
       <div class="card">
-          <a href="/webdesign.html">
+          <a href="/webdesign.php">
           <img src="/maquettage/maquette-mini.png" class="card-image"/>
           <p class="card-title">Webdesign</p>
           </a>
         </div>
         <div class="card">
-        <a href="/illustration.html">
+        <a href="/illustration.php">
           <img src="/illustration/the-girl.png" class="card-image"/>
           <p class="card-title">Illustration</p>
         </a>
         </div>
         <div class="card">
-        <a href="/logo.html">
+        <a href="/logo.php">
           <img src="/logo/logo-fraser-son.png" class="card-image"/>
           <p class="card-title">Branding / Logo</p>
         </a>
@@ -189,14 +165,7 @@
         </div>-->
       </div>
     </div>
-    <footer>
-    <div class="container">
-      <p>©2022 | Design &amp; code fait avec &hearts; par Pauline Bour</p>
-    </div> <!-- /.wrapper -->
-  </footer>
-
-    <script src="/main.js"></script>
-
+    <?php include("footer.php");?>
 </body>
 
 </html>
