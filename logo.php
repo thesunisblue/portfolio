@@ -12,64 +12,146 @@
 <body>
 <?php include("header.php");?>
 
-    <div id="gridThumbs" class="portfolio-grid-overlay grid-wrapper collection-content-wrapper">
-        <a class="grid-item" href="">
-            <div class="grid-image">
-              <div class="grid-image-inner-wrapper">
-            <img src="/logo/logo-fraser-son.png"/>               
-              </div>
-            </div>
-            <div class="portfolio-overlay"></div>
-            <div class="portfolio-text">
-              <h3 class="portfolio-title">Fraser & Son</h3>
-            </div>
-          </a>
-          <a class="grid-item" href="">
-            <div class="grid-image">
-              <div class="grid-image-inner-wrapper">
-            <img src="/logo/logo-marion-photo.PNG"/>               
-              </div>
-            </div>
-            <div class="portfolio-overlay"></div>
-            <div class="portfolio-text">
-              <h3 class="portfolio-title">Marion Photographie</h3>
-            </div>
-          </a>
-          <a class="grid-item" href="">
-            <div class="grid-image">
-              <div class="grid-image-inner-wrapper">
-            <img src="/logo/logo-nemla-trotteuse.png"/>               
-              </div>
-            </div>
-            <div class="portfolio-overlay"></div>
-            <div class="portfolio-text">
-              <h3 class="portfolio-title">Nemla Trotteuse</h3>
-            </div>
-          </a>
-          <a class="grid-item" href="">
-            <div class="grid-image">
-              <div class="grid-image-inner-wrapper">
-            <img src="/logo/kaya.png"/>               
-              </div>
-            </div>
-            <div class="portfolio-overlay"></div>
-            <div class="portfolio-text">
-              <h3 class="portfolio-title">Kaya</h3>
-            </div>
-          </a>
-          <a class="grid-item" href="">
-            <div class="grid-image">
-              <div class="grid-image-inner-wrapper">
-            <img src="/logo/terre-adelie.png"/>               
-              </div>
-            </div>
-            <div class="portfolio-overlay"></div>
-            <div class="portfolio-text">
-              <h3 class="portfolio-title">Terre Adélie</h3>
-            </div>
-          </a>
-    </div>
-    <?php include("footer.php");?>
-</body>
+    <!-- Button to close the overlay navigation -->
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
-</html>
+    <!-- Overlay content -->
+    <div class="overlay-content">
+      <a href="/webdesign.html" class="header__menu__item">Webdesign</a>
+      <a href="/illustration.html" class="header__menu__item">Illustration</a>
+            <a href="/logo.html" class="header__menu__item">Logo</a>
+      <a href="/CVBourPauline.pdf" class="header__menu__item" role="button" target="blank"> Télécharger mon CV</a>
+    </div>
+
+    </div>
+    <header class="header">
+      <a href="/"><img class="header__logo" src="/logo.svg"/></a>
+      <nav class="header__menu">
+        <a href="/webdesign.html" class="header__menu__item">Webdesign</a>
+        <a href="/illustration.html" class="header__menu__item">Illustration</a>
+            <a href="/logo.html" class="header__menu__item">Logo</a>
+        <a href="/CVBourPauline.pdf" class="header__menu__item" role="button" target="blank"> Télécharger mon CV</a>
+      </nav>
+      <div class="header__burger__icon">
+      <a onclick="openNav()">
+      <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" width="34px" height="27px" viewBox="0 0 34 27" enable-background="new 0 0 34 27" xml:space="preserve">
+      <rect fill="#414144" width="34" height="4"/>
+      <rect y="11" fill="#414144" width="34" height="4"/>
+      <rect y="23" fill="#414144" width="34" height="4"/>
+      </svg>
+      </div>
+
+      <div class="header__icons">
+         <a href="https://github.com/thesunisblue" target="blank"><img class="github" src="" /></a>
+       </div>
+   </header>
+     <div id="gridThumbs" class="portfolio-grid-overlay grid-wrapper collection-content-wrapper">
+         <a class="grid-item" href="">
+             <div class="grid-image">
+               <div class="grid-image-inner-wrapper">
+             <img src="/logo/logo-fraser-son.png"/>
+               </div>
+             </div>
+             <div class="portfolio-overlay"></div>
+             <div class="portfolio-text">
+               <h3 class="portfolio-title">Fraser & Son</h3>
+             </div>
+           </a>
+           <a class="grid-item" href="">
+             <div class="grid-image">
+               <div class="grid-image-inner-wrapper">
+             <img src="/logo/logo-marion-photo.PNG"/>
+               </div>
+             </div>
+             <div class="portfolio-overlay"></div>
+             <div class="portfolio-text">
+               <h3 class="portfolio-title">Marion Photographie</h3>
+             </div>
+           </a>
+       <a class="grid-item" href="">
+         <div class="grid-image">
+           <div class="grid-image-inner-wrapper">
+             <img src="/logo/pops.png"/>
+           </div>
+         </div>
+         <div class="portfolio-overlay"></div>
+         <div class="portfolio-text">
+           <h3 class="portfolio-title">Pop's</h3>
+         </div>
+       </a>
+       <a class="grid-item" href="">
+         <div class="grid-image">
+           <div class="grid-image-inner-wrapper">
+             <img src="/logo/eclatdestyle.png"/>
+           </div>
+         </div>
+         <div class="portfolio-overlay"></div>
+         <div class="portfolio-text">
+           <h3 class="portfolio-title">Eclat de style</h3>
+         </div>
+       </a>
+       <a class="grid-item" href="">
+         <div class="grid-image">
+           <div class="grid-image-inner-wrapper">
+             <img src="/logo/defileducoeur1.png"/>
+           </div>
+         </div>
+         <div class="portfolio-overlay"></div>
+         <div class="portfolio-text">
+           <h3 class="portfolio-title">Défilé du coeur</h3>
+         </div>
+       </a>
+       <a class="grid-item" href="">
+         <div class="grid-image">
+           <div class="grid-image-inner-wrapper">
+             <img src="/logo/defileducoeur2.png"/>
+           </div>
+         </div>
+         <div class="portfolio-overlay"></div>
+         <div class="portfolio-text">
+           <h3 class="portfolio-title">Défilé du coeur</h3>
+         </div>
+       </a>
+           <a class="grid-item" href="">
+             <div class="grid-image">
+               <div class="grid-image-inner-wrapper">
+             <img src="/logo/logo-nemla-trotteuse.png"/>
+               </div>
+             </div>
+             <div class="portfolio-overlay"></div>
+             <div class="portfolio-text">
+               <h3 class="portfolio-title">Nemla Trotteuse</h3>
+             </div>
+           </a>
+           <a class="grid-item" href="">
+             <div class="grid-image">
+               <div class="grid-image-inner-wrapper">
+             <img src="/logo/kaya.png"/>
+               </div>
+             </div>
+             <div class="portfolio-overlay"></div>
+             <div class="portfolio-text">
+               <h3 class="portfolio-title">Kaya</h3>
+             </div>
+           </a>
+           <a class="grid-item" href="">
+             <div class="grid-image">
+               <div class="grid-image-inner-wrapper">
+             <img src="/logo/terre-adelie.png"/>
+               </div>
+             </div>
+             <div class="portfolio-overlay"></div>
+             <div class="portfolio-text">
+               <h3 class="portfolio-title">Terre Adélie</h3>
+             </div>
+           </a>
+     </div>
+  <footer>
+    <div class="container">
+      <p>©2024 | Design &amp; code fait avec &hearts; par Pauline Bour</p>
+    </div> <!-- /.wrapper -->
+  </footer>
+     <script src="/main.js"></script>
+ </body>
+
+ </html>
