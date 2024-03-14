@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css">
-    <title>Pauline Bour</title>
+    <title>Découvrez-moi - Popscreativestudio</title>
 </head>
 <body>
     <!-- The overlay -->
