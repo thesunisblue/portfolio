@@ -10,26 +10,26 @@
     <title>Document</title>
 </head>
 <body>
-<?php include("header.php");?>
+<div id="myNav" class="overlay">
 
     <!-- Button to close the overlay navigation -->
     <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
 
     <!-- Overlay content -->
     <div class="overlay-content">
-      <a href="/webdesign.html" class="header__menu__item">Webdesign</a>
-      <a href="/illustration.html" class="header__menu__item">Illustration</a>
-            <a href="/logo.html" class="header__menu__item">Logo</a>
-      <a href="/CVBourPauline.pdf" class="header__menu__item" role="button" target="blank"> Télécharger mon CV</a>
+        <a href="/webdesign.php" class="header__menu__item">Webdesign</a>
+        <a href="/illustration.php" class="header__menu__item">Illustration</a>
+        <a href="/logo.php" class="header__menu__item">Logo</a>
+        <a href="/CVBourPauline.pdf" class="header__menu__item" role="button" target="blank"> Télécharger mon CV</a>
     </div>
 
-    </div>
+</div>
     <header class="header">
       <a href="/"><img class="header__logo" src="/logo.svg"/></a>
       <nav class="header__menu">
-        <a href="/webdesign.html" class="header__menu__item">Webdesign</a>
-        <a href="/illustration.html" class="header__menu__item">Illustration</a>
-            <a href="/logo.html" class="header__menu__item">Logo</a>
+        <a href="/webdesign.php" class="header__menu__item">Webdesign</a>
+        <a href="/illustration.php" class="header__menu__item">Illustration</a>
+            <a href="/logo.php" class="header__menu__item">Logo</a>
         <a href="/CVBourPauline.pdf" class="header__menu__item" role="button" target="blank"> Télécharger mon CV</a>
       </nav>
       <div class="header__burger__icon">
