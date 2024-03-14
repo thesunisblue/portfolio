@@ -426,25 +426,25 @@ label {
 }
 
 label[for="clubs"] {
-	background-image: url(/illustration/cute-cats.png);
+	background-image: url(/illustration/cats.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 label[for="hearts"] {
-	background-image: url(/moodboard.png);
+	background-image: url(/moodboard.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 label[for="spades"] {
-	background-image: url(/carte-visite-fred-bour.png);
+	background-image: url(/carte-visite-fred-bour.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;
 }
 label[for="diamonds"] {
-	background-image: url(/logo/logo-marion-photo.PNG);
+	background-image: url(/logo/marionphoto.jpg);
   background-repeat: no-repeat;
   background-size: contain;
   background-position: center;

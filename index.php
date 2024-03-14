@@ -158,20 +158,20 @@
     </div>
     <div class="projects__section">
     <div class="card">
-      <a href="/webdesign.html">
-      <img src="/maquettage/maquette-mini.png" class="card-image"/>
+      <a href="/webdesign.php">
+      <img src="/maquettage/maquette-mini.jpg" class="card-image"/>
       <p class="card-title">Webdesign</p>
       </a>
     </div>
     <div class="card">
-    <a href="/illustration.html">
-      <img src="/illustration/the-girl.png" class="card-image"/>
+    <a href="/illustration.php">
+      <img src="/illustration/marquepage.jpg" class="card-image"/>
       <p class="card-title">Illustration</p>
     </a>
     </div>
     <div class="card">
-    <a href="/logo.html">
-      <img src="/logo/logo-fraser-son.png" class="card-image"/>
+    <a href="/logo.php">
+      <img src="/logo/defilecoeur2.jpg" class="card-image"/>
       <p class="card-title">Branding / Logo</p>
     </a>
     </div>

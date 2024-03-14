@@ -49,7 +49,7 @@
          <a class="grid-item" href="">
              <div class="grid-image">
                <div class="grid-image-inner-wrapper">
-             <img src="/logo/logo-fraser-son.png"/>
+             <img src="/logo/fraserson.jpg"/>
                </div>
              </div>
              <div class="portfolio-overlay"></div>
@@ -60,7 +60,7 @@
            <a class="grid-item" href="">
              <div class="grid-image">
                <div class="grid-image-inner-wrapper">
-             <img src="/logo/logo-marion-photo.PNG"/>
+             <img src="/logo/marionphoto.jpg"/>
                </div>
              </div>
              <div class="portfolio-overlay"></div>
@@ -71,7 +71,7 @@
        <a class="grid-item" href="">
          <div class="grid-image">
            <div class="grid-image-inner-wrapper">
-             <img src="/logo/pops.png"/>
+             <img src="/logo/pops.jpg"/>
            </div>
          </div>
          <div class="portfolio-overlay"></div>
@@ -82,7 +82,7 @@
        <a class="grid-item" href="">
          <div class="grid-image">
            <div class="grid-image-inner-wrapper">
-             <img src="/logo/eclatdestyle.png"/>
+             <img src="/logo/eclatstyle.jpg"/>
            </div>
          </div>
          <div class="portfolio-overlay"></div>
@@ -93,7 +93,7 @@
        <a class="grid-item" href="">
          <div class="grid-image">
            <div class="grid-image-inner-wrapper">
-             <img src="/logo/defileducoeur1.png"/>
+             <img src="/logo/defilecoeur2.jpg"/>
            </div>
          </div>
          <div class="portfolio-overlay"></div>
@@ -104,7 +104,7 @@
        <a class="grid-item" href="">
          <div class="grid-image">
            <div class="grid-image-inner-wrapper">
-             <img src="/logo/defileducoeur2.png"/>
+             <img src="/logo/defilecoeur1.jpg"/>
            </div>
          </div>
          <div class="portfolio-overlay"></div>
@@ -115,7 +115,7 @@
            <a class="grid-item" href="">
              <div class="grid-image">
                <div class="grid-image-inner-wrapper">
-             <img src="/logo/logo-nemla-trotteuse.png"/>
+             <img src="/logo/nemlatrotteuse.jpg"/>
                </div>
              </div>
              <div class="portfolio-overlay"></div>
@@ -126,7 +126,7 @@
            <a class="grid-item" href="">
              <div class="grid-image">
                <div class="grid-image-inner-wrapper">
-             <img src="/logo/kaya.png"/>
+             <img src="/logo/kaia.jpg"/>
                </div>
              </div>
              <div class="portfolio-overlay"></div>
@@ -137,7 +137,7 @@
            <a class="grid-item" href="">
              <div class="grid-image">
                <div class="grid-image-inner-wrapper">
-             <img src="/logo/terre-adelie.png"/>
+             <img src="/logo/terreadelie.jpg"/>
                </div>
              </div>
              <div class="portfolio-overlay"></div>

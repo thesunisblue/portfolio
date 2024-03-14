@@ -49,7 +49,7 @@
         <a class="grid-item" href="">
             <div class="grid-image">
               <div class="grid-image-inner-wrapper">
-            <img src="/illustration/the-girl.png"/>               
+            <img src="/illustration/filleblonde.jpg"/>
               </div>
             </div>
             <div class="portfolio-overlay"></div>
@@ -57,7 +57,7 @@
           <a class="grid-item" href="">
             <div class="grid-image">
               <div class="grid-image-inner-wrapper">
-            <img src="/illustration/cute-cats.png"/>               
+            <img src="/illustration/cats.jpg"/>
               </div>
             </div>
             <div class="portfolio-overlay"></div>
@@ -65,7 +65,7 @@
           <a class="grid-item" href="">
             <div class="grid-image">
               <div class="grid-image-inner-wrapper">
-            <img src="/illustration/balloon.png"/>
+            <img src="/illustration/ballonchien.jpg"/>
               </div>
             </div>
             <div class="portfolio-overlay"></div>
@@ -73,7 +73,7 @@
           <a class="grid-item" href="">
             <div class="grid-image">
               <div class="grid-image-inner-wrapper">
-            <img src="/illustration/legs.png"/>               
+            <img src="/illustration/gambetttes.jpg"/>
               </div>
             </div>
             <div class="portfolio-overlay"></div>
@@ -81,7 +81,7 @@
       <a class="grid-item" href="">
         <div class="grid-image">
           <div class="grid-image-inner-wrapper">
-            <img src="/illustration/chikipi.png"/>
+            <img src="/illustration/chicken.jpg"/>
           </div>
         </div>
         <div class="portfolio-overlay"></div>
@@ -89,7 +89,7 @@
       <a class="grid-item" href="">
         <div class="grid-image">
           <div class="grid-image-inner-wrapper">
-            <img src="/illustration/ours.png"/>
+            <img src="/illustration/ours.jpg"/>
           </div>
         </div>
         <div class="portfolio-overlay"></div>
@@ -97,7 +97,7 @@
       <a class="grid-item" href="">
         <div class="grid-image">
           <div class="grid-image-inner-wrapper">
-            <img src="/illustration/ratus.png"/>
+            <img src="/illustration/souris.jpg"/>
           </div>
         </div>
         <div class="portfolio-overlay"></div>
@@ -105,7 +105,7 @@
       <a class="grid-item" href="">
         <div class="grid-image">
           <div class="grid-image-inner-wrapper">
-            <img src="/illustration/rhino.png"/>
+            <img src="/illustration/rhino.jpg"/>
           </div>
         </div>
         <div class="portfolio-overlay"></div>
@@ -113,7 +113,7 @@
       <a class="grid-item" href="">
         <div class="grid-image">
           <div class="grid-image-inner-wrapper">
-            <img src="/illustration/cat-lino.png"/>
+            <img src="/illustration/cat.jpg"/>
           </div>
         </div>
         <div class="portfolio-overlay"></div>
@@ -121,7 +121,7 @@
       <a class="grid-item" href="">
         <div class="grid-image">
           <div class="grid-image-inner-wrapper">
-            <img src="/illustration/stickers.png"/>
+            <img src="/illustration/stickers.jpg"/>
           </div>
         </div>
         <div class="portfolio-overlay"></div>
@@ -129,7 +129,7 @@
           <a class="grid-item" href="">
             <div class="grid-image">
               <div class="grid-image-inner-wrapper">
-            <img src="/illustration/sketch.png"/>               
+            <img src="/illustration/sketch.jpg"/>
               </div>
             </div>
             <div class="portfolio-overlay"></div>
@@ -137,11 +137,19 @@
           <a class="grid-item" href="">
             <div class="grid-image">
               <div class="grid-image-inner-wrapper">
-            <img src="/illustration/the-girl-2.png"/>               
+            <img src="/illustration/fillebrune.jpg"/>
               </div>
             </div>
             <div class="portfolio-overlay"></div>
           </a>
+        <a class="grid-item" href="">
+            <div class="grid-image">
+                <div class="grid-image-inner-wrapper">
+                    <img src="/illustration/marquepage.jpg"/>
+                </div>
+            </div>
+            <div class="portfolio-overlay"></div>
+        </a>
     </div>
   <footer>
     <div class="container">

@@ -49,7 +49,7 @@
     <a class="grid-item" target="_blank" href="https://www.figma.com/proto/Y9Y4dJXEJAIzJAvXbQrjX6/Kalamata-Paris?page-id=0%3A1&node-id=82-428&starting-point-node-id=82%3A428&scaling=scale-down-width&mode=design&t=Zsfb8RiVLdMweikp-1">
         <div class="grid-image">
             <div class="grid-image-inner-wrapper">
-                <img src="/maquettage/kalamata.png"/>
+                <img src="/maquettage/kalamata.jpg"/>
             </div>
         </div>
         <div class="portfolio-overlay"></div>
@@ -60,7 +60,7 @@
     <a class="grid-item" target="_blank" href="https://www.figma.com/file/MDv1EcBaCTBXHq5FUUljAn/Untitled?node-id=3%3A16&t=wyJLv0dFKaoyS1YC-1">
         <div class="grid-image">
             <div class="grid-image-inner-wrapper">
-                <img src="/maquettage/camille-bourgeau-photograph.png"/>
+                <img src="/maquettage/photographe.jpg"/>
             </div>
         </div>
         <div class="portfolio-overlay"></div>
@@ -71,7 +71,7 @@
     <a class="grid-item" target="_blank" href="https://www.figma.com/file/0Q905kxzNdFyXvCtNThfqw/Anne-Sophrologie?node-id=1%3A2&t=m90ZFnb7mwBy3HVD-1">
         <div class="grid-image">
             <div class="grid-image-inner-wrapper">
-                <img src="/maquettage/anne-sophro.png"/>
+                <img src="/maquettage/sophrologie.jpg"/>
             </div>
         </div>
         <div class="portfolio-overlay"></div>
