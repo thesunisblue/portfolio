@@ -7,8 +7,8 @@
 
 }
 @font-face {
-  font-family: 'south_australiaregular';
-  src: url('/fonts/SouthAustralia.woff2') format('woff2');
+  font-family: 'Keystone';
+  src: url('/fonts/Keystone-Regular.woff2') format('woff2');
   font-weight: normal;
   font-style: normal;
 }
@@ -18,11 +18,9 @@ body {
     width: 100%;
     margin: 0 auto;
     background-color: #FBFBFB;
-    color:#414144;
-    background-image: url(/corner-left-top.png);
-    background-repeat: no-repeat;
-    background-position: top left;
+    color:#443e2f;
     letter-spacing: 0.1em;
+  font-size: 20px;
 }
 
 a {
@@ -33,17 +31,46 @@ a {
   width: 100%;
   margin:auto;
 }
+@media only screen and (min-width: 1023px) {
+  header {
+    padding: 10px 50px;
+  }
+}
 
 header {
-    max-height: 140px;
-    height: 100%;
-    display: flex;
-    flex-direction: row;
-    max-width: 1200px;
-    width: 100%;
-    margin: 80px auto;
-    justify-content: space-between;
-    align-items: center;
+  max-height: 90px;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #E8E3D0;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.header.onscroll {
+  background-color: #fbfbfb;
+  transition: background-color 200ms linear;
+}
+
+
+.header__logo.colorful {
+  display: none;
+}
+
+.onscroll .header__logo.white {
+display: none;
+}
+.onscroll .header__logo.colorful {
+  display: block;
+}
+
+.onscroll .header__menu__item {
+  color: #384740;
 }
 
 .header__menu {
@@ -61,7 +88,7 @@ header {
     font-size: 16px;
     cursor: pointer;
     text-decoration:none;
-    color:#414144;
+    color:#413d2c;
 }
 
 
@@ -80,12 +107,9 @@ header {
     z-index: 10000;
     left: 0;
     top: 0;
-    background-color:#A4BBA9;
+    background-color:#6D6640;
     overflow-x: hidden; 
-    transition: 0.5s; 
-    background-image: url(/flower.png);
-background-repeat: no-repeat;
-background-position: bottom;
+    transition: 0.5s;
   }
   
   /* Position the content inside the overlay */
@@ -135,42 +159,6 @@ background-position: bottom;
     }
 
 
-    .block__presentation {
-      display: flex;
-      justify-content: space-between;
-      max-width: 1064px;
-      width: 100%;
-      margin: 0 auto 50px;
-    }
-    .block__presentation__introduction {
-      margin: 0px auto;
-    }
-    .block__presentation__title {
-
-        font-family: 'south_australiaregular';
-        font-size: 80px;
-        color:#656D56;
-        z-index: 1;
-        position: relative;
-        left: -100px;
-        transform: rotate(-15deg);
-        letter-spacing: 2px;
-        margin: 20px auto;
-    }
-
-    .profil__picture{
-      width: 380px;
-      height: auto;
-    }
-
-    .block__presentation__description {
-      margin: 0 auto;
-      width: 80%;
-      padding: 85px 0 0;
-      line-height: 1.7em;
-    }
-
-
     .projects__section {
       display: flex;
       justify-content: space-around;
@@ -178,34 +166,16 @@ background-position: bottom;
       margin: 50px;
     }
 
-    .project__header {
-      display: flex;
-      align-items: center;
-      margin: 50px auto;
-      
-    }
-    .project__exemples {
-      overflow: hidden;
-      box-sizing: border-box;
-      font-size: 0;
-    }
-    
 .title {
-    width: 100%;
-font-family: 'montserratthin', sans-serif;
-font-size: 22px;
-text-transform: uppercase;
-letter-spacing: 3px;
-text-align: center;
+  width: 100%;
+  font-family: 'Keystone', sans-serif;
+  font-size: 30px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  text-align: center;
 }
 @media only screen and (max-width: 1023px) {
 
-  .header {
-    margin: 50px auto;
-  }
-  .header__logo {
-    margin: 0 10px;
-  }
 
 .projects__section {
   flex-direction: column;
@@ -215,21 +185,8 @@ text-align: center;
   margin: 20px 10px;
 }
 
-.block__presentation {
-  flex-direction: column;
-}
-
-.block__presentation img {
-  margin: 0 auto;
-  width: 80%;
-}
-
 .block__expertises__item {
   margin: 10px 0;
-}
-
-.project__header {
-  flex-direction: column;
 }
 
 .projects__menu {
@@ -239,37 +196,15 @@ text-align: center;
   text-align: center;
 }
 
-.project__header p {
-  width: 100%;
-  margin: 0 auto;
-  text-align: center;
-}
-
-.project__header {
-  align-items: center;
-  margin: 50px auto auto;
-}
-
 .overlay a {
   font-size: 18px;
 letter-spacing: 5px;
 }
 
-.block__presentation__title {
-  font-size: 60px;
-  text-align: center;
-  left:auto;
-  transform: none;
-}
-
-.block__presentation__description {
-  padding: 10px 0 0;
-}
 }
 
 .button-52 {
   font-size: 16px;
-  font-weight: 200;
   letter-spacing: 1px;
   padding: 20px 20px 13px;
   outline: 0;
@@ -280,7 +215,7 @@ letter-spacing: 5px;
   user-select: none;
   -webkit-user-select: none;
   touch-action: manipulation;
-  color:#FBFBFB;
+  color:#443e2f;
   text-decoration: none;
   text-transform: uppercase;
   letter-spacing: 3px;
@@ -311,7 +246,7 @@ letter-spacing: 5px;
 }
 
 #block__skills {
-  background-color: #A4BBA9;
+  background-color: #D2BC97;
   color:#FBFBFB;
   margin: auto;
   padding: 50px 0;
@@ -319,8 +254,8 @@ letter-spacing: 5px;
 
 .skills__title {
   text-align: center;
-  margin-bottom: 40px;
-  padding: 30px 0;
+  padding: 50px 0 30px;
+  margin: 0;
 }
 
 .block__skills__wrapper {
@@ -487,10 +422,9 @@ label {
 }
 
 .card {
-width:300px;
+width:400px;
 height: 400px;
 background-color:#333;
-border-radius: 45% 45% 0% 0%;
 outline: 1px solid
 rgba(255, 255, 255, .5);
 outline-offset:-8px;
@@ -520,43 +454,89 @@ transform:scale(1.15);
   left: 0;
   bottom: 0;
   font-size: 20px;
-  text-shadow: 0 0 1px rgb(0, 0, 0, .5);
   color: #fff;
   font-weight: 300;
-  background-color: #a4bba9;
+  background-color: #aa5741;
   padding: 10px 20px;
 }
 
 
 footer {
   text-align: center;
-  background-color: #A66851;
+  background-color: #6d6640;
   padding: 25px 0 20px;
-  color: #DDC0AE;
+  color: #f5f5f5;
   text-transform: uppercase;
   font-weight: 300;
 
 }
 
-.citation {
-  background-color: #a4bba9;
-  color: #fff;
-  font-family: 'south_australiaregular', sans-serif;
-  text-align: center;
-  font-size: 4em;
-  padding: 15px 0;
-  margin: 50px 0;
+.quisuisje {
+  background-color:#E3D3B2;
 }
 
-.citation p {
-  margin: 0;
+.casquettes {
+  height: 80vh;
+  background-color:#D2BC97;
+  display:none;
 }
 
-@media only screen and (min-width: 1024px){
-.block__presentation__bg {
-  background-image: url(/background-bird.png);
+.work {
+  min-height: 80vh;
+  background-color:#443e2f;
+  color: #E8E3D0;
+}
+
+.section {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+}
+
+.col33 img {
+  max-width:300px;
+  height: auto;
+}
+
+.top__illustration {
+  height: 900px;
+  background-color:#E8E3D0;
+  background-image: url("/portfoliotop.png");
   background-repeat: no-repeat;
-  background-position: top right;
-  background-size: auto;
+  background-position: center;
+  background-size: contain;
 }
+
+.presentation {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+
+.presentation div {
+  padding: 0 40px 50px;
+}
+
+.profil__picture {
+  max-height: 500px;
+}
+@media only screen and (max-width: 1023px) {
+  .top__illustration {
+    height: 300px;
+  }
+  .presentation{
+    flex-direction: column;
+  }
+  .presentation div {
+    padding: 0;
+  }
+  .card {
+    width:260px;
+    height: 260px;
+    margin: 0 auto 30px;
+  }
 }

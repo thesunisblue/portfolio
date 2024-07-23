@@ -8,3 +8,20 @@ function openNav() {
 function closeNav() {
   document.getElementById("myNav").style.width = "0%";
 }
+
+function ajouterClasseOnScroll() {
+  var headerElement = document.querySelector('.header');
+
+  if (headerElement) {
+    window.addEventListener('scroll', function() {
+      if (window.scrollY > 0) {
+        headerElement.classList.add('onscroll');
+      } else {
+        headerElement.classList.remove('onscroll');
+      }
+    });
+  } else {
+    console.error("L'élément .header est introuvable.");
+  }
+}
+ajouterClasseOnScroll();

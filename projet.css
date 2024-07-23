@@ -1,123 +1,71 @@
-
-@font-face {
-  font-family: 'montserratthin';
-  src: url('montserrat-variablefont_wght-webfont.woff2') format('woff2'),
-       url('montserrat-variablefont_wght-webfont.woff') format('woff');
-  font-weight: normal;
-  font-style: normal;
-
-}
-@font-face {
-  font-family: 'south_australiaregular';
-  src: url('/fonts/SouthAustralia.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-.portfolio-grid-overlay {
+@media only screen and (min-width: 1024px) {
+  .portfolio-grid-basic {
     display: grid;
-    grid-template-columns: repeat(2,minmax(0,1fr));
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-column-gap: 100px;
+    grid-row-gap: 100px;
     grid-auto-rows: min-content;
-  }
-  @media only screen and (max-width: 1023px) {
-    .portfolio-grid-overlay {
-      grid-template-columns: auto;
-    }
-  }
-  
-  .grid-item:hover .portfolio-overlay {
-    opacity: .4;
-    background-color:#A4BBA9;
-}
-  
-  grid-item .portfolio-overlay {
-    opacity: 0;
-  }
-  .portfolio-grid-overlay .grid-item .portfolio-overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    transition: opacity ease 200ms;
-    z-index: 99;
-  }
-  .portfolio-grid-overlay .portfolio-title {
-    font-family: "montserratthin",Helvetica,Arial,sans-serif;
-    font-weight: 600;
-    line-height: 1.2em;
-    font-size: 2rem;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: 10px;
-    text-transform: none;
-    line-height: 1.3em;
-    font-size: 3.5rem;
-  }  
-
-  .portfolio-grid-overlay .grid-item:hover .portfolio-text {
-    opacity: 1;
-  }
-
-  .portfolio-grid-overlay .grid-item .portfolio-text {
-    position: absolute;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    overflow: auto;
-    display: flex;
-    align-content: center;
-    justify-content: center;
-    flex-direction: column;
-    padding: 7%;
+    min-height: 100vh;
+    padding-top: 10vw;
+    padding-bottom: 10vw;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding-left: 3vw;
+    padding-right: 3vw;
     text-align: center;
-    z-index: 100;
-    transition: opacity ease 200ms;
-    color:#fff;
   }
-
-  .portfolio-grid-overlay .grid-item .portfolio-text {
-    opacity: 0;
-  }
-
-  .portfolio-grid-overlay .grid-image {
-    padding-bottom: 100%;
-  }
-
-  .portfolio-grid-overlay .grid-item {
-    padding-bottom: 100%;
-  }
-  .portfolio-grid-overlay .grid-item {
-    position: relative;
-    height: 0;
-    max-height: 750px;
-  }
-
-  .portfolio-grid-overlay .grid-item .grid-image .grid-image-inner-wrapper {
-    position: absolute;
-    top: 0;
-    left: 0;
-    bottom: auto;
-    right: 0;
-  }
-
-  .grid-item .grid-image .grid-image-inner-wrapper img {
+  .grid-image {
     width: 100%;
-    height: 100%;
-    object-position: 50% 50%;
-    object-fit: cover;
-    max-height: 750px;
   }
-
-  .coming__soon {
-    background-color: #a4bba9;
-    color: #fff;
-    padding: 20px 0;
-  }
-
-  .coming__soon .title {
-font-size: 20px;
 }
+@media only screen and (max-width: 1023px) {
+  .portfolio-grid-basic {
+    padding-top: 40vw;
+    padding-bottom: 10vw;
+    text-align: center;
+    margin: 10px;
+  }
+
+  .grid-item {
+    width: 100%;
+    display: block;
+  }
+}
+.grid-image {
+  padding-bottom: 80%;
+  position: relative;
+  overflow: hidden;
+  margin: 0;
+  line-height: 0;
+  border: 8px solid #E8E3D0;
+}
+
+.grid-image-inner-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+}
+
+.grid-image-inner-wrapper img {
+
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  transition: transform .75s;
+}
+
+.grid-image-inner-wrapper img:hover {
+  transform: scale(1.15);
+}
+
+
+.portfolio-title {
+  font-family: 'montserratthin', sans-serif;
+  font-size: 30px;
+  color: #384740;
+  text-transform: uppercase;
+  font-weight: lighter;
+}
+
