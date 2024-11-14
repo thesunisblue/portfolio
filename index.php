@@ -26,7 +26,7 @@
                 <p class="block__presentation__title">Hello ! Ici Pauline </p>
                 <p class="">Designer web depuis 2021, je suis très intéressée par le domaine du design et de l’illustration. J’adore apprendre et je cherche à acquérir de nouvelles compétences !</p>
                 <p>Ne soyez pas timide...</p>
-                <a href="/CVBourPauline.pdf" class="button-52" role="button" target="blank">Téléchargez mon CV !</a>
+                <a href="/Pauline-Bour-CV.pdf" class="button-52" role="button" target="blank">Téléchargez mon CV !</a>
             </div>
         </div>
     </div>
