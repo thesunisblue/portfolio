@@ -4,8 +4,8 @@
        url('montserrat-variablefont_wght-webfont.woff') format('woff');
   font-weight: normal;
   font-style: normal;
-
 }
+
 @font-face {
   font-family: 'Keystone';
   src: url('/fonts/Keystone-Regular.woff2') format('woff2');
@@ -78,7 +78,7 @@ display: none;
     flex-direction: row;
     list-style: none;
     justify-content: space-between;
-    max-width: 670px;
+    max-width: 800px;
     width: 100%;
 }
 

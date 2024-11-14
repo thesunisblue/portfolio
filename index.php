@@ -29,6 +29,7 @@
                 <a href="/Pauline-Bour-CV.pdf" class="button-52" role="button" target="blank">Téléchargez mon CV !</a>
             </div>
         </div>
+
     </div>
 
     <div class="casquettes">
