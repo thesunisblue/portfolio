@@ -7,13 +7,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="projet.css">
-    <title>Communication - Popscreativestudio</title>
+    <title>Webdesign - Popscreativestudio</title>
 </head>
 <body>
 <?php require "header.php"; ?>
-
+<div class="grid portfolio-grid-basic webdesign">
 Bientôt disponible :)
-
+</div>
 <?php require "footer.php"; ?>
 
 </body>
